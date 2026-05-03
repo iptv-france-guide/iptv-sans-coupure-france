@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://iptv-france-guide.github.io/iptv-sans-coupure-france/sitemap.xml
