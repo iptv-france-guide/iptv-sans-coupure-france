@@ -191,6 +191,14 @@ h1{font-size:1.5rem}
 .hero-hl .hl-icon{font-size:1.3rem;margin-bottom:0}
 .stats-grid{grid-template-columns:1fr}
 }
+/* Telegram Floating Button */
+.tg-float{position:fixed;bottom:20px;left:20px;background:#229ED9;color:white;border-radius:50px;padding:12px 20px;display:flex;align-items:center;gap:10px;font-weight:600;font-size:.95rem;box-shadow:0 4px 15px rgba(34,158,217,.4);z-index:1000;transition:transform .3s,box-shadow .3s;text-decoration:none}
+.tg-float:hover{transform:translateY(-3px);box-shadow:0 6px 20px rgba(34,158,217,.6);color:white}
+.tg-float svg{width:22px;height:22px;fill:currentColor}
+@media(max-width:768px){
+.tg-float{padding:12px;border-radius:50%}
+.tg-float span{display:none}
+}
 </style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-K6C3BSLBBB"></script>
@@ -203,6 +211,10 @@ h1{font-size:1.5rem}
 </script>
 </head>
 <body>
+<a href="https://t.me/GuideIPTVFrance" target="_blank" rel="noopener" class="tg-float" aria-label="Rejoindre notre Telegram">
+<svg viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.223-.548.223l.188-2.85 5.18-4.686c.223-.195-.054-.285-.346-.09l-6.4 4.024-2.76-.86c-.6-.185-.61-.6.125-.89l10.81-4.17c.5-.18 1.053.12.85 1.037z"/></svg>
+<span>Rejoindre le Telegram</span>
+</a>
 <div id="progress"></div>
 <header class="site-header">
 <div class="container">
@@ -260,7 +272,16 @@ h1{font-size:1.5rem}
 </ol>
 </div>
 </div>
+</div>
 </section>
+
+<div class="container">
+<div style="background:linear-gradient(135deg, #229ED9 0%, #1e88be 100%);color:white;padding:1.5rem;border-radius:8px;margin:2.5rem 0;text-align:center;box-shadow:0 10px 25px rgba(34,158,217,0.3)">
+  <h3 style="color:white;margin-top:0;font-size:1.3rem;font-family:'Syne', sans-serif">🎁 Ne manquez aucun bon plan !</h3>
+  <p style="margin-bottom:1.2rem;font-size:0.95rem;opacity:0.9">Rejoignez notre canal Telegram privé pour obtenir des tests gratuits de 24h, des codes promos exclusifs et être alerté des pannes de serveurs en direct.</p>
+  <a href="https://t.me/GuideIPTVFrance" target="_blank" rel="noopener" style="background:white;color:#229ED9;padding:10px 22px;border-radius:50px;font-weight:800;text-decoration:none;display:inline-block;transition:transform 0.2s">👉 Rejoindre les 2,500 membres</a>
+</div>
+</div>
 
 <section class="table-section" id="comparatif">
 <div class="container">
